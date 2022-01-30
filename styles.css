@@ -359,12 +359,14 @@ footer {
   margin-top: 10rem;
 }
 .foot_wrapper img {
-  margin: 5rem auto 2rem 10rem;
+  margin: 10rem auto 2rem 10rem;
+  padding-left: 2rem;
 }
 
 .foot-content {
   display: flex;
   justify-content: space-evenly;
+  padding: 0 3rem;
 }
 
 .foot-box {
@@ -373,7 +375,7 @@ footer {
 }
 .foot-box li {
   font-size: 0.8rem;
-  width: 18rem;
+  width: 15rem;
   padding: 0.5rem;
 }
 .social-media {
@@ -387,8 +389,8 @@ footer {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   text-decoration: none;
 }
 .foot-copy {
@@ -526,6 +528,7 @@ footer {
   }
   .foot_wrapper img {
     margin: 12rem 0 0 0;
+    
   }
   .foot-content {
     flex-direction: column;
