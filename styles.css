@@ -1,0 +1,541 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.top {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(images/bg-hero-desktop.svg);
+}
+
+.nav-bar {
+  padding: 1rem;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 2rem 4rem;
+  gap: 5rem;
+}
+#logo {
+  width: 12rem;
+  transition: 0.3s;
+}
+
+#logo:hover {
+  position: relative;
+  bottom: 0.2rem;
+}
+
+#nav-button {
+  width: 10rem;
+  height: 2.5rem;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  background-color: white;
+  color: hsl(192, 100%, 9%);
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(19, 19, 28, 0.25);
+  text-shadow: 0 0 10px rgb(0 0 0 / 15%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#nav-button:hover {
+  background-color: rgba(128, 141, 153, 10%);
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding-bottom: 4rem;
+}
+
+.hero-content_1 {
+  margin: auto 1rem auto auto;
+}
+
+.hero-content_1 h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+
+.hero-content_1 p {
+  color: hsl(192, 100%, 9%);
+  font-weight: 600;
+}
+
+#hero-image {
+  width: 45rem;
+}
+
+.hero-content_2 {
+  margin: auto auto auto 3rem;
+}
+
+#hero-button {
+  width: 17rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 5px hsl(322, 100%, 66%);
+  margin-top: 16px;
+  transition: 0.5s;
+}
+
+#hero-button:hover {
+  background-color: hsl(321, 56%, 52%);
+  box-shadow: 1px 1px 5px hsl(321, 56%, 35%);
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.card_1 {
+  display: flex;
+  margin: auto;
+  width: 75rem;
+  padding-top: 4rem;
+  padding-bottom: 32px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(19, 19, 28, 0.1);
+}
+
+.gt_content-text {
+  margin: auto;
+  width: 29rem;
+}
+.gt_content-text h2 {
+  color: hsl(192, 100%, 9%);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+.gt_content-text p {
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+
+.gt_content-logo {
+  margin-right: 6rem;
+}
+
+#gt_logo {
+  width: 20rem;
+}
+.card_2 {
+  display: flex;
+  margin: auto;
+  width: 75rem;
+  padding-top: 4rem;
+  padding-bottom: 32px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(19, 19, 28, 0.1);
+}
+.fc_content-text {
+  margin: auto;
+  width: 29rem;
+}
+.fc_content-text h2 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.fc_content-text p {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+}
+
+.fc_content-logo {
+  margin: auto;
+}
+#fc_logo {
+  width: 20rem;
+}
+
+.card_3 {
+  display: flex;
+  margin: auto;
+  width: 75rem;
+  padding-top: 4rem;
+  padding-bottom: 32px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(19, 19, 28, 0.1);
+}
+
+.yu_content-text {
+  margin: auto;
+  width: 27rem;
+}
+.yu_content-text h2 {
+  color: hsl(192, 100%, 9%);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.yu_content-text p {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+}
+
+.yu_content-logo {
+  margin-right: 6rem;
+}
+
+#yu_logo {
+  width: 20rem;
+}
+
+.box-area {
+  margin: auto;
+  width: 45rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+  background-color: white;
+  position: relative;
+  top: 15rem;
+}
+
+.box-text {
+  text-align: center;
+}
+.box-button-container {
+  text-align: center;
+  line-height: 6.5rem;
+}
+
+.box-btn {
+  width: 19rem;
+  height: 3.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 5px hsl(322, 100%, 66%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.box-btn:hover {
+  background-color: hsl(321, 56%, 52%);
+  box-shadow: 1px 1px 5px hsl(321, 56%, 35%);
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 10rem;
+}
+.foot_wrapper img {
+  margin: 5rem auto 2rem 10rem;
+}
+
+.foot-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot-box {
+  list-style: none;
+  color: white;
+}
+.foot-box li {
+  font-size: 0.8rem;
+  width: 18rem;
+  padding: 0.5rem;
+}
+.social-media {
+  display: flex;
+}
+.circle {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+.foot-copy {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3rem;
+  color: hsl(208, 11%, 55%);
+  font-size: 0.8rem;
+}
+
+.end a,
+.end {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.end {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 1330px) {
+  .nav-content {
+    margin: 0;
+    gap: 5rem;
+  }
+  #logo {
+    width: 8rem;
+  }
+  #nav-button {
+    width: 6rem;
+    height: 1.8rem;
+  }
+  .hero {
+    flex-direction: column;
+    margin: 4rem 0 2rem 0;
+    padding-bottom: 2rem;
+  }
+  .hero-content_1 {
+    text-align: center;
+    margin: 0;
+  }
+  .hero-content_1 h1 {
+    font-size: 1.85rem;
+  }
+  .hero-content_1 p {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+  #hero-button {
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    width: 16rem;
+  }
+  #hero-image {
+    width: 20.5rem;
+  }
+
+  .hero-content_2 {
+    margin: auto;
+  }
+  .card_1 {
+    flex-direction: column-reverse;
+    width: 20rem;
+    margin: auto;
+  }
+  .gt_content-text {
+    text-align: center;
+    padding-top: 2rem;
+    width: 20rem;
+  }
+
+  .gt_content-logo {
+    margin: auto;
+  }
+  #gt_logo {
+    width: 15rem;
+  }
+
+  .card_2 {
+    flex-direction: column;
+    width: 20rem;
+    margin: auto;
+  }
+  .fc_content-text {
+    text-align: center;
+    padding-top: 2rem;
+    width: 19rem;
+  }
+  .fc_content-logo {
+    margin: auto;
+  }
+  #fc_logo {
+    width: 15rem;
+  }
+  .card_3 {
+    flex-direction: column-reverse;
+    width: 20rem;
+    margin: auto;
+  }
+  .yu_content-text {
+    text-align: center;
+    padding-top: 2rem;
+    width: 20rem;
+  }
+  .yu_content-logo {
+    margin: auto;
+  }
+  #yu_logo {
+    width: 15rem;
+  }
+  .box-area {
+    margin: auto;
+    width: 20rem;
+    height: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    background-color: white;
+    position: relative;
+    top: 15rem;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-text {
+    font-size: 0.7rem;
+  }
+  .box-btn {
+    width: 12rem;
+  }
+  .foot_wrapper img {
+    margin: 12rem 0 0 0;
+  }
+  .foot-content {
+    flex-direction: column;
+  }
+  .social-media {
+    justify-content: center;
+  }
+  .foot-copy {
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
