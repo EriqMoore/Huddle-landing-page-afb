@@ -218,7 +218,7 @@ table {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  margin-top: 5rem;
+  margin-top: 6rem;
   
 }
 
@@ -226,6 +226,7 @@ table {
   display: flex;
   margin: auto;
   width: 75rem;
+  height: 22rem;
   padding-top: 4rem;
   padding-bottom: 32px;
   border-radius: 10px;
@@ -251,12 +252,17 @@ table {
 }
 
 #gt_logo {
-  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 22rem;
+  
 }
 .card_2 {
   display: flex;
   margin: auto;
   width: 75rem;
+  height: 22rem;
   padding-top: 4rem;
   padding-bottom: 32px;
   border-radius: 10px;
@@ -281,13 +287,14 @@ table {
   margin: auto;
 }
 #fc_logo {
-  width: 20rem;
+  width: 22rem;
 }
 
 .card_3 {
   display: flex;
   margin: auto;
   width: 75rem;
+  height: 22rem;
   padding-top: 4rem;
   padding-bottom: 32px;
   border-radius: 10px;
@@ -313,7 +320,7 @@ table {
 }
 
 #yu_logo {
-  width: 20rem;
+  width: 22rem;
 }
 
 .box-area {
