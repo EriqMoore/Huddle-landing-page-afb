@@ -219,7 +219,7 @@ table {
   flex-direction: column;
   gap: 3rem;
   margin-top: 5rem;
-  margin-bottom: 10rem;
+  
 }
 
 .card_1 {
@@ -325,7 +325,7 @@ table {
   box-shadow: 0 0 10px rgb(0 0 0 / 15%);
   background-color: white;
   position: relative;
-  top: 15rem;
+  top: 5rem;
 }
 
 .box-text {
@@ -356,7 +356,7 @@ table {
 
 footer {
   background-color: hsl(192, 100%, 9%);
-  margin-top: 10rem;
+ 
 }
 .foot_wrapper img {
   margin: 10rem auto 2rem 10rem;
@@ -414,24 +414,28 @@ footer {
 
 @media only screen and (max-width: 1330px) {
   .nav-content {
+    justify-content: space-evenly;
     margin: 0;
-    gap: 5rem;
+    
   }
   #logo {
     width: 8rem;
+    margin-top: 1rem;
   }
   #nav-button {
     width: 6rem;
     height: 1.8rem;
+    margin-top: 1rem;
   }
   .hero {
     flex-direction: column;
-    margin: 4rem 0 2rem 0;
+    margin: 5rem 0 2rem 0;
     padding-bottom: 2rem;
   }
   .hero-content_1 {
     text-align: center;
-    margin: 0;
+    margin: auto;
+    
   }
   .hero-content_1 h1 {
     font-size: 1.85rem;
@@ -443,10 +447,10 @@ footer {
   #hero-button {
     margin-top: 2rem;
     margin-bottom: 3.5rem;
-    width: 16rem;
+    width: 20rem;
   }
   #hero-image {
-    width: 20.5rem;
+    width: 20rem;
   }
 
   .hero-content_2 {
@@ -454,7 +458,8 @@ footer {
   }
   .card_1 {
     flex-direction: column-reverse;
-    width: 20rem;
+    width: 22rem;
+    height: 40rem;
     margin: auto;
   }
   .gt_content-text {
@@ -472,13 +477,14 @@ footer {
 
   .card_2 {
     flex-direction: column;
-    width: 20rem;
+    width: 22rem;
+    height: 40rem;
     margin: auto;
   }
   .fc_content-text {
     text-align: center;
     padding-top: 2rem;
-    width: 19rem;
+    width: 20rem;
   }
   .fc_content-logo {
     margin: auto;
@@ -488,7 +494,8 @@ footer {
   }
   .card_3 {
     flex-direction: column-reverse;
-    width: 20rem;
+    width: 22rem;
+    height: 40rem;
     margin: auto;
   }
   .yu_content-text {
@@ -504,15 +511,11 @@ footer {
   }
   .box-area {
     margin: auto;
-    width: 20rem;
-    height: 2rem;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+    width: 23rem;
+    height: 8rem;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgb(0 0 0 / 15%);
     background-color: white;
-    position: relative;
-    top: 15rem;
   }
   .box {
     display: flex;
